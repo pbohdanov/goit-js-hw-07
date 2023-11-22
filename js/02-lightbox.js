@@ -23,7 +23,7 @@ function createMarkup(arr) {
       .join("");
   }
 
-  var lightbox = new SimpleLightbox('.gallery__item a', 
+  const lightbox = new SimpleLightbox('.gallery__item a', 
   {  
   captionsData: "alt",
   captionDelay: 250
